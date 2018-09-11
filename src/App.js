@@ -4,11 +4,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
 
-        <h1 className="App-title">Aditya Hiran Pilla</h1>
+        <h1 className="title">Aditya Hiran Pilla</h1>
 
-        <div className="Flex-column">
+        <div className="flex-column">
           <div><i>Email:</i> p.adityahiran@gmail.com</div>
           <div><i>Location Preferences:</i> Toronto, Canada</div>
         </div>
