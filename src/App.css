@@ -1,5 +1,19 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .app {
   padding: 20px;
+}
+
+.content {
+  width: 85%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-column {
@@ -9,6 +23,15 @@
 
 .m10px {
   margin: 10px
+}
+
+.sidebar {
+  width: 15%;
+  background: #F5F5F5;
+  height: 100vh;
+  text-align: center;
+  padding: 10px;
+  padding-top: 50px;
 }
 
 .title {
