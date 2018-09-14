@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Radiation } from './Radiation';
+
 export class Resume extends React.Component {
   render() {
     return (
@@ -28,10 +30,7 @@ export class Resume extends React.Component {
           </div>
           <div>
             <ol>
-              <li>
-                Radiation: Specializes in radiation related resource tracking, inventory management, personnel management, use authorizations, audits,
-                surveys, disposal management etc. [ ehs.ucop.edu/radiation ]
-              </li>
+              <Radiation />
               <li>
                 Tracker: A minimalistic app that can be integrated with other apps to track items such as orders and trainings from different suppliers. [ ehs.ucop.edu/rss/tracker ]
               </li>
