@@ -1,6 +1,10 @@
 import React from 'react';
 
 import { Radiation } from './Radiation';
+import { Tracker } from './Tracker';
+import { Monitor } from './Monitor';
+import { Assessment } from './Assessment';
+import { UIComponents } from './UIComponents';
 
 export class Resume extends React.Component {
   render() {
@@ -19,7 +23,7 @@ export class Resume extends React.Component {
 
         <h3>Work Experience</h3>
 
-        <div><strong>Full Stack Web Applications Developer:</strong> UC Davis – March 2015 to present</div>
+        <div><strong>Full Stack Web Applications Developer:</strong> University of California, Davis – March 2015 to August 2018</div>
 
         <div className="m10px">
           <i>Projects</i>
@@ -31,23 +35,15 @@ export class Resume extends React.Component {
           <div>
             <ol>
               <Radiation />
-              <li>
-                Tracker: A minimalistic app that can be integrated with other apps to track items such as orders and trainings from different suppliers. [ ehs.ucop.edu/rss/tracker ]
-              </li>
-              <li>
-                Monitor: Allows management of different exposure types. Flexibility to accommodate different exposure types is made possible through the development of two generic frameworks, one for handling different forms driven through a database and second for handling different workflows through the use of a rule engine. [ ehs.ucop.edu/monitor ]
-              </li>
-              <li>
-                Assessment: Different work environments require the supervisors to assess and revise their workspaces for safety hazards. This app facilitates the management of such workflows. [ ehs.ucop.edu/assessment ]
-              </li>
-              <li>
-                Flexible forms: The underlying design complies with the composite design pattern where the individual simplistic UI components are used to compose forms and other composable UI components.
-              </li>
+              <Tracker />
+              <Monitor />
+              <Assessment />
+              <UIComponents />
             </ol>
           </div>
         </div>
 
-        <div><strong>Web Applications Developer:</strong> UC Berkeley – July 2014 to February 2015</div>
+        <div><strong>Web Applications Developer:</strong> University of California, Berkeley – July 2014 to February 2015</div>
 
         <div className="m10px">
           <i>Projects</i>

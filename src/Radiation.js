@@ -14,12 +14,13 @@ export class Radiation extends React.Component {
       <li>
         <span>
           Radiation: Specializes in radiation related resource tracking, inventory management, personnel management, use authorizations, audits,
-          surveys, disposal management etc. [ ehs.ucop.edu/radiation ]
-          {!this.state.showPreview && (<a onClick={() => this.setState({ showPreview: true })}> Preview</a>)}
+          surveys, disposal management etc. [ ehs.ucop.edu/radiation ] [ Code Contribution: 60% ] [ Complexity: High ]
+          {!this.state.showPreview && (<a style={{ cursor: 'pointer' }} onClick={() => this.setState({ showPreview: true })}> [ Preview ]</a>)}
           {this.state.showPreview && (
             <div>
               <hr style={{ margin: 0 }} />
               <RadiationPreview />
+              <a style={{ cursor: 'pointer' }} onClick={() => this.setState({ showPreview: false })}>[ Hide Preview ]</a>
               <hr />
             </div>
           )}
