@@ -5,6 +5,15 @@ import { Tracker } from './Tracker';
 import { Monitor } from './Monitor';
 import { Assessment } from './Assessment';
 import { UIComponents } from './UIComponents';
+import { Listener } from './Listener';
+import { Parser } from './Parser';
+import { Alerts } from './Alerts';
+import { History } from './History';
+import { Reporting } from './Reporting';
+import { Communications } from './Communications';
+import { RESTAPI } from './RESTAPI';
+import { UI } from './UI';
+import { Auth } from './Auth';
 
 export class Resume extends React.Component {
   render() {
@@ -19,18 +28,38 @@ export class Resume extends React.Component {
         </div>
 
         <h3>Objective</h3>
-        <span>Develop web applications with a focus on maintainability, performance and user-friendliness.</span>
+        <span>Develop distributed systems with a focus on maintainability, performance and user-friendliness. In the next step of the career, I would like to build products that sell themselves.</span>
 
         <h3>Work Experience</h3>
+
+        <div><strong>Full Stack Software and Data Engineer:</strong> Fleet Complete – September 2018 to Present</div>
+
+        <div className="m10px">
+          <i>Projects</i>
+          <div>
+          Connvex – Being a venture of Fleet Complete, the goal of Connvex was to become an IoT Cloud platform which enables companies to build IoT solutions in partnership with Connvex. When I started as only the second developer in September, the project was in its inception with 15% of the codebase compared to what it is today. My contributions have played a key role in delivering a cloud based IoT platform with multi tenant support while we partnered with our first client for an IoT solution. Architecturally, the code was organized into microservices and the data was spread across different data sources that can scale into a data lake. At its core, different IoT devices report data from sensors as UDP packets, which are captured and passed through a pipeline to parse and persist for other services to consume. The platform is comprised of the following components :
+          </div>
+          <div>
+            <ol>
+              <Listener />
+              <Parser />
+              <Alerts />
+              <History />
+              <Reporting />
+              <Communications />
+              <RESTAPI />
+              <UI />
+              <Auth />
+            </ol>
+          </div>
+        </div>
 
         <div><strong>Full Stack Web Applications Developer:</strong> University of California, Davis – March 2015 to August 2018</div>
 
         <div className="m10px">
           <i>Projects</i>
           <div>
-            UC Safety Suite of Applications: Worked on a variety of different web applications that handle business scenarios in the
-            area of environment, health and safety for all the 15 campuses under the UC system. Below are a few applications I worked
-            on :
+            Risk and Safety Solutions : Worked on a comprehensive suite of web applications catering to the requirements of Risk and Safety. Based in UC Davis, our first clients have been the 15 campuses under the UC system. With more commercialization the company expanded its client base outside of the UC system. Some of the projects I have contributed to, include :
           </div>
           <div>
             <ol>
@@ -110,22 +139,22 @@ export class Resume extends React.Component {
             <strong>Programming:</strong> Java, Javascript, Scala, Groovy, C#, C++, C.
           </li>
           <li>
-            <strong>Web Frameworks:</strong> Spring MVC, React, Angular, Nodejs, Grails, Android, ASP.Net.
+            <strong>Frameworks/Platforms:</strong> NodeJS, Spring, Spark, Kafka, AWS, GraphQL, Drools, ReactJS, Angular
+          </li>
+          <li>
+            <strong>Databases/Cache:</strong> MongoDB, Cassandra, Redis, MS SQL, MySQL, Oracle, AWS S3 
           </li>
           <li>
             <strong>Testing:</strong> E2E (Protractor), Spec (Karma), Integration + Unit (Junit), Mock.
           </li>
           <li>
-            <strong>Databases:</strong> MongoDB, Redis, MS SQL, MySQL, Oracle.
-          </li>
-          <li>
             <strong>Software Practices:</strong> Test Driven Development, SCRUM, Kanban.
           </li>
           <li>
-            <strong>Build and Deploy:</strong> Docker, Jenkins.
+            <strong>Build and Deploy:</strong> Kubernetes, Docker, Jenkins, New Relic.
           </li>
           <li>
-            <strong>Dependency Managers:</strong> Maven, NPM.
+            <strong>Dependency Managers:</strong> Gradle, Maven, NPM.
           </li>
           <li>
             <strong>Version Control System:</strong> Git.

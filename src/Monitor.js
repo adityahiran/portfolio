@@ -5,7 +5,7 @@ export class Monitor extends React.Component {
     return (
       <li>
         <span>
-        Monitor: Allows management of different exposure types. Flexibility to accommodate different exposure types is made possible through the development of two generic frameworks, one for handling different forms driven through a database and second for handling different workflows through the use of a rule engine. [ ehs.ucop.edu/monitor ] [ Code Contribution: 80% ]
+          Monitor: Allows users to manage different exposure types. It has the flexibility to accommodate different exposure types through the use of flexible forms provided through the UI-Components. [ ehs.ucop.edu/monitor ] [ Impact: Replaced a legacy system ] [ Code Contribution: 70% ]
         </span>
       </li>
     );

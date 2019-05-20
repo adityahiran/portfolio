@@ -5,7 +5,7 @@ export class UIComponents extends React.Component {
     return (
       <li>
         <span>
-          UI Components: The underlying design complies with the composite design pattern where the individual simplistic UI components are used to compose forms and other composable UI components. [ Organization wide library ] [ Code contribution: 60% ]
+          UI-Components : A library developed to produce UI components that can in turn be composed into composite components and flexible forms. Designed using composite design pattern in Angular. [ Organization wide library ] [ Code contribution: 60% ]
         </span>
       </li>
     );
