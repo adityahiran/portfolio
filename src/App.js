@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import { Resume } from './Resume'
+import { Resume } from './Resume';
+import { CoverLetter } from './CoverLetter';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="flex-row">
-          <div className="sidebar">
-            <Link to={'/'}>RESUME</Link>
+          <div className="sidebar" >
+            <Link to={'/'}>RESUME</Link><br/>
+            <Link to={'/cover-letter'}>COVER LETTER</Link><br/>
           </div>
-
           <div className="content">
-            <Route path="/" component={Resume} />
+            <Switch>
+              <Route exact path="/" component={Resume} />
+              <Route exact path="/cover-letter" component={CoverLetter} />
+            </Switch>
           </div>
         </div>
       </BrowserRouter>
