@@ -35,6 +35,16 @@ a {
   padding-top: 50px;
 }
 
+@media print {
+  .sidebar {
+    display: none;
+  }
+}
+
+@page {
+  size: A4;  
+}
+
 .title {
   font-size: 1.5em;
   text-align: center;

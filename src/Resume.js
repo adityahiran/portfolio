@@ -28,7 +28,7 @@ export class Resume extends React.Component {
         </div>
 
         <h3>Objective</h3>
-        <span>Develop distributed systems with a focus on maintainability, performance and user-friendliness. In the next step of the career, I would like to build products that sell themselves.</span>
+        <span>Develop distributed systems with a focus on maintainability, performance and user-friendliness.</span>
 
         <h3>Work Experience</h3>
 
