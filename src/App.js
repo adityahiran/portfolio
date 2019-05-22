@@ -11,12 +11,14 @@ class App extends Component {
       <BrowserRouter>
         <div className="flex-row">
           <div className="sidebar" >
-            <Link to={'/'}>RESUME</Link><br/>
-            <Link to={'/cover-letter'}>COVER LETTER</Link><br/>
+            <Link to={'/resume'}>RESUME</Link><br/><br/>
+            <Link to={'/cover-letter'}>COVER LETTER</Link><br/><br/>
           </div>
           <div className="content">
             <Switch>
               <Route exact path="/" component={Resume} />
+              <Route exact path="/resume/" component={Resume} />
+              <Route exact path="/portfolio/" component={Resume} />
               <Route exact path="/cover-letter" component={CoverLetter} />
             </Switch>
           </div>
