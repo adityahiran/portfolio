@@ -90,7 +90,7 @@ export class CoverLetter extends React.Component {
         <h5>Outcome</h5>
 
         <div>
-          The idea includes automatically associating the elements to the license rules if it is a straight forward association. But in the cases of conflict, the system would delegate the responsibility to the user which in this case will be the Radiation Safety Officer on campus. In the conflicting cases, the user will be presented a few probable license rules from which the correct one will be chosen. This approximation based automation worked very well since this particular use case didn't really need a 100% automation. 
+          Explaining the cost to value of this optimized strategy helped my team to agree with me. This scenario specifically has given me a lot of appreciation as the client started using the system and has become the first client to do so.
         </div>
 
         <br/>
