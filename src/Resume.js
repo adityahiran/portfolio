@@ -145,7 +145,7 @@ export class Resume extends React.Component {
             <strong>Databases/Cache:</strong> MongoDB, Cassandra, Redis, MS SQL, MySQL, Oracle, AWS S3 
           </li>
           <li>
-            <strong>Testing:</strong> E2E (Protractor), Spec (Karma), Integration + Unit (Junit), Mock.
+            <strong>Testing:</strong> Load Testing (JMeter, cassandra-stress), E2E (Protractor), Spec (Karma), Integration (Mocha), Unit (Mocha, Junit).
           </li>
           <li>
             <strong>Software Practices:</strong> Test Driven Development, SCRUM, Kanban.
