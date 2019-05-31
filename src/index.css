@@ -3,3 +3,45 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.container {
+  margin: 50px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 20px;
+  text-align: left;
+  min-width: 250px;
+}
+
+td a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  border-bottom: 1px solid;
+}
+
+td a:link {
+  color: #0d4dc4;
+}
+
+td a:visited {
+  color: #16257a;
+}
+
+td a:focus {
+  border-bottom: 1px solid;
+}
+
+td a:hover {
+  border-bottom: 1px solid;     
+}
+
+td a:active {
+  color: #CDFEAA;
+}

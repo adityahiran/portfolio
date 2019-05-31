@@ -28,3 +28,10 @@ npm start
 ```
 npm run deploy
 ```
+
+### Run integration tests
+
+```
+npm run cypress:open
+```
+Select an integration test case to run. Example: illustrate -> user-list.spec.js
