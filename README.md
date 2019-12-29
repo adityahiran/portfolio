@@ -2,6 +2,7 @@
 
 ## Portfolio
 
+* Some illustrations
 * Resume
 * Cover Letter
 
@@ -17,8 +18,7 @@
 
 ## Commands
 
-### Run it Locally
-
+### Run it Locally @ http://localhost:3000
 ```
 npm start
 ```
