@@ -22,8 +22,9 @@ export class Illustrate extends React.Component {
   }
   render() {
     return (
-      <div>
-        <table style={{ margin: 50 }}>
+      <div style={{ margin: 50 }}>
+        <h3>Illustrating a simple http call to fetch a list of users</h3>
+        <table>
           <tbody>
             <tr>
               <th>Name</th>

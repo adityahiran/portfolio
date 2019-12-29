@@ -5,6 +5,7 @@ import './App.css';
 import { Resume } from './Resume';
 import { CoverLetter } from './CoverLetter';
 import { Illustrate } from './Illustrate';
+import { Home } from './Home';
 import User from './User';
 
 class App extends Component {
@@ -13,13 +14,14 @@ class App extends Component {
       <HashRouter>
         <div className="flex-row">
           <div className="sidebar" >
+            <Link to={'/'}>HOME</Link><br/><br/>
             <Link to={'/illustrate'}>ILLUSTRATE - USERS</Link><br/><br/>
             <Link to={'/resume'}>RESUME</Link><br/><br/>
             <Link to={'/cover-letter'}>COVER LETTER</Link><br/><br/>
           </div>
           <div className="content">
             <Switch>
-              <Route exact path="/" component={Illustrate} />
+              <Route exact path="/" component={Home} />
               <Route exact path="/illustrate/" component={Illustrate} />
               <Route exact path="/illustrate/user/:id" component={User} />
               <Route exact path="/resume/" component={Resume} />
