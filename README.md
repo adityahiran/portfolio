@@ -15,6 +15,7 @@
 * Git
 * NPM
 * Github
+* Cypress
 
 ## Commands
 
